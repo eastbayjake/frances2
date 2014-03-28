@@ -1,7 +1,60 @@
+body {
+	background-color: #cccccc;
+}
+
 .fancyFont {
 	font-family: 'Source Sans Pro'
 }
 
 .hidden {
 	display:none;
+}
+
+#wrapper {
+	position: relative;
+	min-height: 100%;
+}
+
+#content {
+	padding: 10px;
+	padding-bottom: 80px;
+}
+
+#footer {
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	bottom: 10;
+	left: 0;
+	text-align: center;
+}
+
+#hero-unit {
+	margin-bottom:30px;
+}
+
+#hero-unit img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#hero-unit .heroTitle {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#hero-unit .heroDescription {
+	font-size: 12px;
+	font-style: italic;
+}
+
+#hero-unit .heroDimensions {
+	font-size: 12px;
+	font-style: italic;
+}
+
+#hero-unit .heroYear {
+	font-size: 12px;
+	font-style: italic;
 }

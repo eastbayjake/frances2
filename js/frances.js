@@ -1,5 +1,126 @@
 var frances = {};
 var art = {
+	"Knit Drawings": [
+		{
+			title: "Brown Paper 1",
+			description: "This painting is brown, and also of paper. It's the first one.",
+			dimensions: "11x22x33",
+			year: "1974",
+			img: "https://photos-1.dropbox.com/t/0/AAAfhJpvW5KswcVZD-m-1a8G0-17BZBE3CBSB1yO3jEnBA/12/25304506/jpeg/32x32/3/_/1/2/BrownPaper1.jpg/QyR1TiuXNOuuoHSo6kamtZ-SVcLv8wvpKFeUiHQsT88?_subject_uid=25304506"
+		},
+		{
+			title: "Brown Paper 2",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-1.dropbox.com/t/0/AACnOxhY1wQZGWUXanxDp2Wdi4Lr0hqie-pOKr_uok3Qgw/12/25304506/jpeg/32x32/3/_/1/2/BrownPaper2.jpg/CwlhYqogvFABt5UTmRoTVDXMU5vfsWwOC9iertACvXE?_subject_uid=25304506"
+		},
+		{
+			title: "Knit Drawing 1",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-4.dropbox.com/t/0/AAC7T0i31MlGBtfiQc-L2oYl9OAXRolUhmA-RP4R7WaGiA/12/25304506/jpeg/32x32/3/_/1/2/KnitDrawing1.jpg/GM8bG8jh6912CFrbyebhw3hA0TX78L5Y6ITy-j1hPI0?_subject_uid=25304506"
+		},
+		{
+			title: "Knit Drawing 2",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-5.dropbox.com/t/0/AABI3GQv_CzmCe9DaggLAf0ScPt1dGQX9FBRBuBAz-ICEg/12/25304506/jpeg/32x32/3/_/1/2/KnitDrawing2.jpg/2YQ6xm-38OOAKeDQ1nlN0NaFQJYrZZhBoqxf85L1mM4?_subject_uid=25304506"
+		},
+		{
+			title: "Knit Drawing 3",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-3.dropbox.com/t/0/AAAvbcrTdkCE6Y1WMm6tmnUVJFm_YciUnZLEHvAGWgE5TA/12/25304506/jpeg/32x32/3/_/1/2/KnitDrawing3.jpg/Qbj1rqQ-H67Uf7RjjyHr0KQqw5Kf8uzZWNcNUo867ss?_subject_uid=25304506"
+		},
+		{
+			title: "Knit Drawing 4",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-6.dropbox.com/t/0/AAAaPSLkY-w8oAoLkEKXOmZykVM9HRhl95kl2U7bUV3P7g/12/25304506/jpeg/32x32/3/_/1/2/KnitDrawing4.jpg/ltcU2LAZs4lZ8C9WZfR4E5Xnx--w_otBW_eQtGZFNn0?_subject_uid=25304506"
+		},
+		{
+			title: "Knit Drawing 5",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-1.dropbox.com/t/0/AADFgIpTtLl-BHjvaD_CCauDi5ndw1ovqYvKNHRg9CIXng/12/25304506/jpeg/32x32/3/_/1/2/KnitDrawing5.jpg/c__cb2mZgYMd9ZINc3ZYCJrAkf77brKP-I5wiUkwcBA?_subject_uid=25304506"
+		},
+		{
+			title: "Wall Drawing 1",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-4.dropbox.com/t/0/AAD-1I1r6b4Nso7KsPl5lCOMjFwAET6i2_d8bdlOLJCM5w/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing1.jpg/XjfXOunZMlnQxMNJkkVbJH5qq4Z9pstFOtRlKOx9VTA?_subject_uid=25304506"
+		},
+		{
+			title: "Wall Drawing 1 - Detail",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-5.dropbox.com/t/0/AABsJ_fsI3gQ1I6PzK_Zb2FjPVgYDib8w254-dxYO02h6w/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing1Detail.jpg/f0_SEr7NxuHntJnwW9mUga8qFIGpeiFptcJBjTj4YRo?_subject_uid=25304506"
+		},
+		{
+			title: "Wall Drawing 1 - Installation",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-1.dropbox.com/t/0/AAB4iFSNoNHVxw4HSImUf6tywsVg4EdZaA18wnaAjNMnDg/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing1InstallationView.jpg/QwQEJoF__4JgzggEZ4W9AGe7Ohpwe_pTfQ-UWzkO30A?_subject_uid=25304506"
+		},
+		{
+			title: "Wall Drawing 2",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-5.dropbox.com/t/0/AAA5mg4OnjiclzYG0dw26Um_kyxMia5EXlMK2I75tkFZZA/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing2.jpg/hhCgAILMxY5mIjX7YCrd-hxtaHl_OK4yYnpccNg8r8k?_subject_uid=25304506"
+		},
+		{
+			title: "Wall Drawing 2 - Detail",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-1.dropbox.com/t/0/AABouxtjYf7hR6vFma1Mlq4TlqPX260FDqFDtisQ4bgY7A/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing2Detail.jpg/YWYyqykLJ_2No4iFXtfdHspeJnlBYWtUAk5MkoLgu7E?_subject_uid=25304506"
+		},
+		{
+			title: "Wall Drawing 2 - Installation",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-4.dropbox.com/t/0/AACEUVnJ6KYeSGyI-Q10qD9QoRQp_zqaDcJjI3wP53o8Sg/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing2InstallationView.jpg/bI3plxSfE4Kl2zVt0m2jp0-6Qbwb2Cq0KmgPhhPaD0I?_subject_uid=25304506"
+		},
+		{
+			title: "Wall Drawing 3",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-1.dropbox.com/t/0/AACIanqI-Wb3LW1W_SEPg50z-_9Lc7ix50Pqq_Ol7YZy7g/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing3.jpg/MjtPe7Mixb1tK9UB700eQ3uxhpp16F-FV67qfZK8kTM?_subject_uid=25304506"
+		},
+		{
+			title: "Wall Drawing 3 - Detail 1",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-6.dropbox.com/t/0/AAADbHKMuIp2pPJB-aWgJ4mb0R0A6cKgGCllzxDH74JgQA/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing3Detail1.jpg/eNO2dYmEBAfIRs9UPIdpxsZW3z3xE8VpgBfW8KevC9c?_subject_uid=25304506"
+		},
+		{
+			title: "Wall Drawing 3 - Detail 2",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-6.dropbox.com/t/0/AAAXqjl6fK6vP7tMd5i-r62cNR8MXQiPv5xlNEgoM0WcxQ/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing3Detail2.jpg/TuKSFgatA4zxuDO8tDneAwiA4umQpJk83jWSxzW-ifo?_subject_uid=25304506"
+		},
+		{
+			title: "Wall Drawing 3 - Installation",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: "https://photos-4.dropbox.com/t/0/AADujkvzgA_-WmfNZ9rK1jnhElD3iZZox5YHOEuWHeuvyw/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing3InstallationView.jpg/f4LfcdSmgHzyfo88IXWSiEVn1IsbCnmjclYrzDCK9U8?_subject_uid=25304506"
+		}
+	],
 	"Surface": [
 		{
 			title: "Anabel",
@@ -78,130 +199,9 @@ var art = {
 			year: "",
 			img: "https://photos-2.dropbox.com/t/0/AADwgpWkunLHVcSjo55QGIqUTGyWuxnCgc_0Ypq6Z30AaQ/12/25304506/jpeg/32x32/3/_/1/2/Untitled(1).jpg/xcfwCJY7COtkxtnJYYM39Y13EjpugaMpF1FheXTWNGo"
 		}
-	],
-	"Knit Drawings": [
-		{
-			title: "Brown Paper 1",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-1.dropbox.com/t/0/AAAfhJpvW5KswcVZD-m-1a8G0-17BZBE3CBSB1yO3jEnBA/12/25304506/jpeg/32x32/3/_/1/2/BrownPaper1.jpg/QyR1TiuXNOuuoHSo6kamtZ-SVcLv8wvpKFeUiHQsT88"
-		},
-		{
-			title: "Brown Paper 2",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-1.dropbox.com/t/0/AACnOxhY1wQZGWUXanxDp2Wdi4Lr0hqie-pOKr_uok3Qgw/12/25304506/jpeg/32x32/3/_/1/2/BrownPaper2.jpg/CwlhYqogvFABt5UTmRoTVDXMU5vfsWwOC9iertACvXE"
-		},
-		{
-			title: "Knit Drawing 1",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-4.dropbox.com/t/0/AAC7T0i31MlGBtfiQc-L2oYl9OAXRolUhmA-RP4R7WaGiA/12/25304506/jpeg/32x32/3/_/1/2/KnitDrawing1.jpg/GM8bG8jh6912CFrbyebhw3hA0TX78L5Y6ITy-j1hPI0"
-		},
-		{
-			title: "Knit Drawing 2",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-5.dropbox.com/t/0/AABI3GQv_CzmCe9DaggLAf0ScPt1dGQX9FBRBuBAz-ICEg/12/25304506/jpeg/32x32/3/_/1/2/KnitDrawing2.jpg/2YQ6xm-38OOAKeDQ1nlN0NaFQJYrZZhBoqxf85L1mM4"
-		},
-		{
-			title: "Knit Drawing 3",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-3.dropbox.com/t/0/AAAvbcrTdkCE6Y1WMm6tmnUVJFm_YciUnZLEHvAGWgE5TA/12/25304506/jpeg/32x32/3/_/1/2/KnitDrawing3.jpg/Qbj1rqQ-H67Uf7RjjyHr0KQqw5Kf8uzZWNcNUo867ss"
-		},
-		{
-			title: "Knit Drawing 4",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-6.dropbox.com/t/0/AAAaPSLkY-w8oAoLkEKXOmZykVM9HRhl95kl2U7bUV3P7g/12/25304506/jpeg/32x32/3/_/1/2/KnitDrawing4.jpg/ltcU2LAZs4lZ8C9WZfR4E5Xnx--w_otBW_eQtGZFNn0"
-		},
-		{
-			title: "Knit Drawing 5",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-1.dropbox.com/t/0/AADFgIpTtLl-BHjvaD_CCauDi5ndw1ovqYvKNHRg9CIXng/12/25304506/jpeg/32x32/3/_/1/2/KnitDrawing5.jpg/c__cb2mZgYMd9ZINc3ZYCJrAkf77brKP-I5wiUkwcBA"
-		},
-		{
-			title: "Wall Drawing 1",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-4.dropbox.com/t/0/AAD-1I1r6b4Nso7KsPl5lCOMjFwAET6i2_d8bdlOLJCM5w/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing1.jpg/XjfXOunZMlnQxMNJkkVbJH5qq4Z9pstFOtRlKOx9VTA"
-		},
-		{
-			title: "Wall Drawing 1 - Detail",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-5.dropbox.com/t/0/AABsJ_fsI3gQ1I6PzK_Zb2FjPVgYDib8w254-dxYO02h6w/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing1Detail.jpg/f0_SEr7NxuHntJnwW9mUga8qFIGpeiFptcJBjTj4YRo"
-		},
-		{
-			title: "Wall Drawing 1 - Installation",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-1.dropbox.com/t/0/AAB4iFSNoNHVxw4HSImUf6tywsVg4EdZaA18wnaAjNMnDg/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing1InstallationView.jpg/QwQEJoF__4JgzggEZ4W9AGe7Ohpwe_pTfQ-UWzkO30A"
-		},
-		{
-			title: "Wall Drawing 2",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-5.dropbox.com/t/0/AAA5mg4OnjiclzYG0dw26Um_kyxMia5EXlMK2I75tkFZZA/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing2.jpg/hhCgAILMxY5mIjX7YCrd-hxtaHl_OK4yYnpccNg8r8k"
-		},
-		{
-			title: "Wall Drawing 2 - Detail",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-1.dropbox.com/t/0/AABouxtjYf7hR6vFma1Mlq4TlqPX260FDqFDtisQ4bgY7A/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing2Detail.jpg/YWYyqykLJ_2No4iFXtfdHspeJnlBYWtUAk5MkoLgu7E"
-		},
-		{
-			title: "Wall Drawing 2 - Installation",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-4.dropbox.com/t/0/AACEUVnJ6KYeSGyI-Q10qD9QoRQp_zqaDcJjI3wP53o8Sg/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing2InstallationView.jpg/bI3plxSfE4Kl2zVt0m2jp0-6Qbwb2Cq0KmgPhhPaD0I"
-		},
-		{
-			title: "Wall Drawing 3",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-1.dropbox.com/t/0/AACIanqI-Wb3LW1W_SEPg50z-_9Lc7ix50Pqq_Ol7YZy7g/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing3.jpg/MjtPe7Mixb1tK9UB700eQ3uxhpp16F-FV67qfZK8kTM"
-		},
-		{
-			title: "Wall Drawing 3 - Detail 1",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-6.dropbox.com/t/0/AAADbHKMuIp2pPJB-aWgJ4mb0R0A6cKgGCllzxDH74JgQA/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing3Detail1.jpg/eNO2dYmEBAfIRs9UPIdpxsZW3z3xE8VpgBfW8KevC9c"
-		},
-		{
-			title: "Wall Drawing 3 - Detail 2",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-6.dropbox.com/t/0/AAAXqjl6fK6vP7tMd5i-r62cNR8MXQiPv5xlNEgoM0WcxQ/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing3Detail2.jpg/TuKSFgatA4zxuDO8tDneAwiA4umQpJk83jWSxzW-ifo"
-		},
-		{
-			title: "Wall Drawing 3 - Installation",
-			description: "",
-			dimensions: "",
-			year: "",
-			img: "https://photos-4.dropbox.com/t/0/AADujkvzgA_-WmfNZ9rK1jnhElD3iZZox5YHOEuWHeuvyw/12/25304506/jpeg/32x32/3/_/1/2/WallDrawing3InstallationView.jpg/f4LfcdSmgHzyfo88IXWSiEVn1IsbCnmjclYrzDCK9U8"
-		}
 	]
-}
-];
+};
+var heroImages = [art["Knit Drawings"][0], art["Knit Drawings"][1], art["Knit Drawings"][3], art["Knit Drawings"][6], art["Knit Drawings"][8]]
 
 var sizes = {
 	small: "128x128",
@@ -217,11 +217,34 @@ frances.navigateTo = function(next) {
 	document.getElementById(next).classList.remove('hidden');
 };
 
+frances.currentHeroIndex = 0;
+
+frances.rotateHeroImage = function() {
+	var image = heroImages[frances.currentHeroIndex];
+	var hero = document.getElementById('hero-unit').children;
+	hero[1].src = image.img + "&size=640x480";
+	hero[2].innerHTML = image.title;
+	hero[3].innerHTML = image.description;
+	hero[4].innerHTML = image.dimensions;
+	hero[5].innerHTML = image.year;
+	if (frances.currentHeroIndex === heroImages.length-1) {
+		frances.currentHeroIndex = 0;
+	} else {
+		frances.currentHeroIndex++;
+	}
+	hero[0].src = heroImages[frances.currentHeroIndex].img + "&size=640x480";
+}
+
+// Init Procedure
+if (window.location.hash) frances.navigateTo(window.location.hash.slice(1));
+
 document.getElementById('navbar').addEventListener('click', function(e){
 	setTimeout(function(){
 		if (window.location.hash) frances.navigateTo(window.location.hash.slice(1));
 	},1);
 });
 
-// Init Procedures
-if (window.location.hash) frances.navigateTo(window.location.hash.slice(1));
+frances.rotateHeroImage();
+setInterval(function(){
+	frances.rotateHeroImage();
+}, 10000);
