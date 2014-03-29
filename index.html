@@ -13,12 +13,12 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]--> 
   </head>
-  <body>
+  <body class="homePageOn">
   	<div id="wrapper">
 	  	<nav id="navbar" class="navbar navbar-default" role="navigation">
 			  <div class="container-fluid">
 			    <div class="navbar-header">
-			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="frances-navbar-collapse">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#frances-navbar-collapse">
 			        <span class="sr-only">Toggle navigation</span>
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
@@ -33,6 +33,7 @@
 			        <li class="dropdown">
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Recent Work <b class="caret"></b></a>
 			          <ul class="dropdown-menu">
+			            <li><a href="#gallery">Gallery</a></li>
 			            <li><a href="#">Painting 1</a></li>
 			            <li><a href="#">Painting 2</a></li>
 			            <li><a href="#">Painting 3</a></li>
@@ -47,22 +48,21 @@
 			  </div><!-- /.container-fluid -->
 			</nav>
 			<div id="content">
-				<div id="home" class="sectionWrapper">
-			    <div id="hero-unit">
-			    	<img class="heroLoading hidden" src="">
-			    	<img class="heroImage" src="">
-			    	<div class="heroTitle text-center"></div>
-			    	<div class="heroDescription text-center"></div>
-			    	<div class="heroDimensions text-center"></div>
-			    	<div class="heroYear text-center"></div>
-			    </div>
-			  </div>
+				<div id="home" class="sectionWrapper"></div>
 			  <div id="about" class="hidden sectionWrapper">
 			    <h1>About the Artist</h1>
 			    <p>Frances was born. She went to school. She paints.</p>
 			  </div>
 			  <div id="gallery" class="hidden sectionWrapper">
-			    <h1>Can't see these images!</h1>
+			    <div id="hero-mask"></div>
+			    <div id="hero-unit">
+			    	<img class="heroLoading hidden" src="">
+			    	<img class="heroImage" src="https://photos-1.dropbox.com/t/0/AAAfhJpvW5KswcVZD-m-1a8G0-17BZBE3CBSB1yO3jEnBA/12/25304506/jpeg/32x32/3/_/1/2/BrownPaper1.jpg/QyR1TiuXNOuuoHSo6kamtZ-SVcLv8wvpKFeUiHQsT88?_subject_uid=25304506&size=640x480">
+			    	<div class="heroTitle text-center">Brown Paper 1</div>
+			    	<div class="heroDescription text-center">This painting is brown, and also on paper. It's the first one.</div>
+			    	<div class="heroDimensions text-center">11x22x33</div>
+			    	<div class="heroYear text-center">1974</div>
+			    </div>
 			  </div>
 			</div>
 		  <div id="footer">All Rights Reserved &copy; Frances Anne Lee 2014</div>

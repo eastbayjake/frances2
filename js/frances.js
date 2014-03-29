@@ -1,9 +1,10 @@
 var frances = {};
+var DOMcache = {};
 var art = {
 	"Knit Drawings": [
 		{
 			title: "Brown Paper 1",
-			description: "This painting is brown, and also of paper. It's the first one.",
+			description: "This painting is brown, and also on paper. It's the first one.",
 			dimensions: "11x22x33",
 			year: "1974",
 			img: "https://photos-1.dropbox.com/t/0/AAAfhJpvW5KswcVZD-m-1a8G0-17BZBE3CBSB1yO3jEnBA/12/25304506/jpeg/32x32/3/_/1/2/BrownPaper1.jpg/QyR1TiuXNOuuoHSo6kamtZ-SVcLv8wvpKFeUiHQsT88?_subject_uid=25304506"
@@ -214,25 +215,34 @@ frances.navigateTo = function(next) {
 	for (var i=0; i<sections.length; i++) {
 		sections[i].classList.add('hidden');
 	}
+	(next === 'home') ?	document.body.classList.add('homePageOn') : document.body.classList.remove('homePageOn');
 	document.getElementById(next).classList.remove('hidden');
 };
 
-frances.currentHeroIndex = 0;
+DOMcache.currentHeroIndex = 1;
+DOMcache.heroMask = document.getElementById('hero-mask');
+DOMcache.hero = document.getElementById('hero-unit');
 
 frances.rotateHeroImage = function() {
-	var image = heroImages[frances.currentHeroIndex];
-	var hero = document.getElementById('hero-unit').children;
-	hero[1].src = image.img + "&size=640x480";
-	hero[2].innerHTML = image.title;
-	hero[3].innerHTML = image.description;
-	hero[4].innerHTML = image.dimensions;
-	hero[5].innerHTML = image.year;
-	if (frances.currentHeroIndex === heroImages.length-1) {
-		frances.currentHeroIndex = 0;
-	} else {
-		frances.currentHeroIndex++;
-	}
-	hero[0].src = heroImages[frances.currentHeroIndex].img + "&size=640x480";
+	var heroMask = DOMcache.heroMask;
+	var image = heroImages[DOMcache.currentHeroIndex];
+	var hero = DOMcache.hero.children;
+	heroMask.style.opacity = 100;
+	setTimeout(function(){
+		console.log("Changing the image!");
+		hero[1].src = image.img + "&size=640x480";
+		hero[2].innerHTML = image.title;
+		hero[3].innerHTML = image.description;
+		hero[4].innerHTML = image.dimensions;
+		hero[5].innerHTML = image.year;
+		if (DOMcache.currentHeroIndex === heroImages.length-1) {
+			DOMcache.currentHeroIndex = 0;
+		} else {
+			DOMcache.currentHeroIndex++;
+		}
+		hero[0].src = heroImages[DOMcache.currentHeroIndex].img + "&size=640x480";
+		heroMask.style.opacity = 0;
+	}, 500);
 }
 
 // Init Procedure
@@ -244,7 +254,5 @@ document.getElementById('navbar').addEventListener('click', function(e){
 	},1);
 });
 
-frances.rotateHeroImage();
-setInterval(function(){
-	frances.rotateHeroImage();
-}, 10000);
+// frances.rotateHeroImage();
+setInterval(frances.rotateHeroImage, 5000);
