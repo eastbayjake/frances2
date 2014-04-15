@@ -163,7 +163,7 @@ var art = {
 			description: "",
 			dimensions: "",
 			year: "",
-			img: "https://photos-1.dropbox.com/t/0/AACe_yj1xumj-PWoCSwVMC3Xz4bNz72gInskBhRHi5KorA/12/25304506/jpeg/32x32/3/_/1/2/Peter.jpg/rDXncb4BGjj-nUNPfBoVW3BljYSMJ6anyfrPHK2onLM"
+			img: "https://photos-1.dropbox.com/t/0/AACe_yj1xumj-PWoCSwVMC3Xz4bNz72gInskBhRHi5KorA/12/25304506/jpeg/32x32/3/_/1/2/Peter.jpg/rDXncb4BGjj-nUNPfBoVW3BljYSMJ6anyfrPHK2onLM?_subject_uid=25304506"
 		},
 		{
 			title: "Study for Anabel",
@@ -200,6 +200,26 @@ var art = {
 			year: "",
 			img: "https://photos-2.dropbox.com/t/0/AADwgpWkunLHVcSjo55QGIqUTGyWuxnCgc_0Ypq6Z30AaQ/12/25304506/jpeg/32x32/3/_/1/2/Untitled(1).jpg/xcfwCJY7COtkxtnJYYM39Y13EjpugaMpF1FheXTWNGo"
 		}
+	],
+	"Marfa Drawings": [
+		{
+			title: "New Marfa Drawing",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: ""
+		},
+
+	],
+	"Identification Documents": [
+		{
+			title: "New Identification Drawing",
+			description: "",
+			dimensions: "",
+			year: "",
+			img: ""
+		},
+		
 	]
 };
 var heroImages = [art["Knit Drawings"][0], art["Knit Drawings"][1], art["Knit Drawings"][3], art["Knit Drawings"][6], art["Knit Drawings"][8]]
@@ -255,4 +275,4 @@ document.getElementById('navbar').addEventListener('click', function(e){
 });
 
 // frances.rotateHeroImage();
-setInterval(frances.rotateHeroImage, 5000);
+setInterval(frances.rotateHeroImage, 10000);

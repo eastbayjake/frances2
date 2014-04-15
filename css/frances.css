@@ -1,5 +1,6 @@
 body {
 	background-color: #cccccc;
+	font: 'Source Sans Pro';
 }
 
 .homePageOn {
@@ -53,6 +54,7 @@ body {
 
 #hero-unit {
 	margin-bottom:30px;
+	font-size:16px;
 }
 
 #hero-unit img {
@@ -62,21 +64,15 @@ body {
 }
 
 #hero-unit .heroTitle {
-	font-size: 16px;
-	font-weight: bold;
+	margin-top:20px;
+	font-style:italic;
 }
 
 #hero-unit .heroDescription {
-	font-size: 12px;
-	font-style: italic;
 }
 
 #hero-unit .heroDimensions {
-	font-size: 12px;
-	font-style: italic;
 }
 
 #hero-unit .heroYear {
-	font-size: 12px;
-	font-style: italic;
 }
